@@ -1,0 +1,89 @@
+/* naam: Sarbjit Singh */
+
+/* 
+kleuren:
+    oranje: orange
+    wit:    white
+    blauw:  0090e3
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+main {
+    width: 700px;
+    font-size: 18pt;
+}
+
+fieldset{
+    display: flex;
+    margin-top: 10px;
+    border: solid orange 5px;
+    justify-content: space-between;
+}
+
+fieldset span {
+    max-width: calc(700px / 4);
+}
+
+fieldset img {
+    width: 350px;
+    height: auto;
+}
+
+fieldset input[type="number" i] {
+    width: 40px;
+    font-size: 18pt;
+    height: fit-content;
+}
+
+fieldset input[type="text" i] {
+    width: 350px;
+    font-size: 18pt;
+    margin: 0 18px;
+}
+
+.adres {
+    justify-content: space-between;
+}
+
+.adres input[type="number" i] {
+    width: 60px;
+}
+
+.adres .straat {
+    width: calc(700px / 7);
+}
+
+.betaalwijze {
+    justify-content: space-between;
+}
+
+.betaalwijze span {
+    max-width: calc(700px / 4);
+}
+
+.betaalwijze img{
+    max-width: 25%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.opmerking {
+    flex-direction: column;
+}
+
+.knop input{
+    font-size: 18pt;
+    height: 100px;
+    width: 100%;
+    color: white;
+    background-color: #0090e3;
+}
+
+textarea {
+    margin-top: 5px;
+    font-size: 18pt;
+}
+

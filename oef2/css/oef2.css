@@ -1,0 +1,38 @@
+/*naam: Sarbjit Singh
+*/
+
+/*
+    blauw   0090e3
+    geel    f3f5cb
+    wit     white
+*/
+table{
+    table-layout: fixed;
+    border: 2px solid black;
+}
+
+thead{
+    background-color: #0090e3;
+    color: white;
+    font-size: 20pt;
+    font-style: italic;
+    font-family: serif;
+    text-align: center;
+}
+
+tbody{
+    font-size: 18pt;
+    font-family: monospace;
+    text-align: right;
+}
+
+td{
+    border: solid black 1px;
+    padding: 0 25px;
+    height: 50px;
+}
+
+tbody tr:nth-child(even) td, tbody tr:nth-child(1) td:nth-child(4), tbody tr:nth-child(5) td:nth-child(4), tbody tr:nth-child(7) td:nth-child(4){
+    background-color: #f3f5cb;
+}
+

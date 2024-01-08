@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- naam: Sarbjit Singh-->
+<head>
+    <meta charset="UTF-8">
+    <title>Oef3</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/oef3.css">
+</head>
+<body>
+<header>
+    <h1>Bedankt voor je bestelling</h1>
+</header>
+<main>
+    <form action="bestel.html">
+        <fieldset>
+            <span>Lego trein</span>
+            <img src="assets/images/train1.jpg" alt="trein1">
+            <span>
+                <label for="legotrein">aantal</label>
+                <input type="number" min="1" id="legotrein" name="legotrein">
+            </span>
+        </fieldset>
+        <fieldset>
+            <span>Lego set</span>
+            <img src="assets/images/lego1.jpg" alt="lego1">
+            <span>
+                <label for="legoset">aantal</label>
+                <input type="number" min="1" id="legoset" name="legoset">
+            </span>
+        </fieldset>
+        <fieldset class="betaalwijze">
+            <span>Betaalwijze</span>
+            <span>
+                <input type="radio" name="betaalwijze" id="visa" checked>
+                <label for="visa">
+                    <img src="assets/images/visa.png" alt="foto visa">
+                </label>
+            </span>
+            <span>
+                <input type="radio" name="betaalwijze" id="mastercard">
+                <label for="mastercard">
+                    <img src="assets/images/mastercard.png" alt="foto mastercard">
+                </label>
+            </span>
+            <span>
+                <input type="radio" name="betaalwijze" id="overschrijving">
+                <label for="overschrijving">overschrijving</label>
+            </span>
+        </fieldset>
+        <fieldset class="opmerking">
+            <label for="opmerkingen">Opmerkingen</label>
+            <textarea name="opm" id="opmerkingen" placeholder="Opmerkingen" rows="10" ></textarea>
+        </fieldset>
+        <fieldset class="adres">
+            <label class="straat" for="straat">Straat</label>
+            <input type="text" id="straat" name="straat" placeholder="Straat" required>
+            <label for="nummer">Nummer</label>
+            <input type="number" id="nummer" name="nummer" required>
+        </fieldset>
+        <fieldset class="knop">
+            <input type="submit" value="Bestellen">
+        </fieldset>
+    </form>
+</main>
+
+</body>
+</html>
